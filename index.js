@@ -20,7 +20,7 @@ function calculatesFarePrice(start, destination){
     }
     else if(feet>400 && feet<=2000)
     {
-      fare=(feet-400)*0.02;
+      fare=(feet-400)*0.02+8;
     }
     else if(feet>2000 && feet<=2500)
     {
